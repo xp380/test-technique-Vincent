@@ -39,7 +39,7 @@ __Une route pour lister les villes dans un rayon fourni__: Un utilisateur veut l
 Ce test cherche à valider vos connaissance en ReactJS.
 
 __Objectif__ : Utiliser l'API Movie Database, afin de réaliser une interface utilisateur.  
-https://api.themoviedb.org/3/movie/550?api_key=ad2c28e0345278f3c8b002efddadf28f
+https://api.themoviedb.org/3/movie/popular?api_key=ad2c28e0345278f3c8b002efddadf28f
 
 Votre rendu final devra comprendre :
 
