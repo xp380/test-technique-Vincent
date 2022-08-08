@@ -1,92 +1,60 @@
-# test-technique
+#Tests techniques
+
+Le test se compose de 2 parties: front et back.
+Pour commencer vous devez __forker__ le repo dans votre espace.
+
+__*Pensez bien a commiter dès le début*__ - c'est ce temps qui fera fois pour le début
+
+__*A l'attention des devs juniors:*__
+*Vous n'aurez peut-être pas le temps de tout faire. Pas d'inquiétude, cela fait partie du test.* 
+
+Bon travail à tous.
+
+## Test technique backend
+
+Ce test cherche à valider vos connaissance en NodeJS.
+
+__Objectif__ : Permettre de récupérer/modifier/supprimer les données issues du fichier JSON fourni (laposte_hexasmal.json).  
+
+Votre rendu final devra comprendre :
+
+### Si vous postulez pour le poste de dev Junior:
+
+__Une route pour accèder à la liste complète__: Un utilisateur veut accéder à la liste complète des villes.
+__Une route pour accèder à un code postal précis__: Un utilisateur veut accéder à un code postal en particulier. 
+__Une route pour modifier une entrée__: Un utilisateur veut modifier une information lié au code postal.
+__Une route pour supprimer une entrée__: Un utilisateur veut supprimé une entrée via le code postal.
 
 
+### Si vous postulez pour le poste de dev Senior: 
 
-## Getting started
+__Les mêmes exercices que le Junior__
+__Une route pour lister les villes avec de la pagination__: Un utilisateur veut lister les villes mais page par page. 
+__Une route pour lister les villes d'un département__: Un utilisateur veut lister les villes d'un département. 
+__Une route pour lister les villes dans un rayon fourni__: Un utilisateur veut lister les villes dans un rayon défini.
 
-To make it easy for you to get started with GitLab, here's a list of recommended next steps.
 
-Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!
+## Test technique frontend
 
-## Add your files
+Ce test cherche à valider vos connaissance en ReactJS.
 
-- [ ] [Create](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#create-a-file) or [upload](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#upload-a-file) files
-- [ ] [Add files using the command line](https://docs.gitlab.com/ee/gitlab-basics/add-file.html#add-a-file-using-the-command-line) or push an existing Git repository with the following command:
+__Objectif__ : Utiliser l'API Movie Database, afin de réaliser une interface utilisateur.  
+https://api.themoviedb.org/3/movie/550?api_key=ad2c28e0345278f3c8b002efddadf28f
 
-```
-cd existing_repo
-git remote add origin https://gitlab.com/pitchboy/test-technique.git
-git branch -M main
-git push -uf origin main
-```
+Votre rendu final devra comprendre :
 
-## Integrate with your tools
+### Si vous postulez pour le poste de dev Junior:
 
-- [ ] [Set up project integrations](https://gitlab.com/pitchboy/test-technique/-/settings/integrations)
+__Affichage des derniers films__: Un utilisateur peut voir les derniers films sur la page d'accueil.
+__Affichage dans des films dans l'ordre__: Un utilisateur peut afficher les films par leur ordre de sortie. 
+__Affichage d'un film sur une autre page__: Un utilisateur peut alors voir tout les détails d'un film(vous êtes libre d'afficher le nombre d'informations que vous voulez).
+__Affichage les suggestions d'un film__: Une fois sur la page de détails, un utilisateur peut voir les suggestions alternative en rapport avec ce film.
 
-## Collaborate with your team
 
-- [ ] [Invite team members and collaborators](https://docs.gitlab.com/ee/user/project/members/)
-- [ ] [Create a new merge request](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html)
-- [ ] [Automatically close issues from merge requests](https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#closing-issues-automatically)
-- [ ] [Enable merge request approvals](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/)
-- [ ] [Automatically merge when pipeline succeeds](https://docs.gitlab.com/ee/user/project/merge_requests/merge_when_pipeline_succeeds.html)
+### Si vous postulez pour le poste de dev Senior: 
 
-## Test and Deploy
+__Les mêmes exercices que le Junior__
+__Creation d'une liste de film à voir__: Un utilisateur peut se créer une liste de film à voir. 
+__Ajout d'un système de rating__: Un utilisateur peut ajouter une note sur chaque film.
 
-Use the built-in continuous integration in GitLab.
-
-- [ ] [Get started with GitLab CI/CD](https://docs.gitlab.com/ee/ci/quick_start/index.html)
-- [ ] [Analyze your code for known vulnerabilities with Static Application Security Testing(SAST)](https://docs.gitlab.com/ee/user/application_security/sast/)
-- [ ] [Deploy to Kubernetes, Amazon EC2, or Amazon ECS using Auto Deploy](https://docs.gitlab.com/ee/topics/autodevops/requirements.html)
-- [ ] [Use pull-based deployments for improved Kubernetes management](https://docs.gitlab.com/ee/user/clusters/agent/)
-- [ ] [Set up protected environments](https://docs.gitlab.com/ee/ci/environments/protected_environments.html)
-
-***
-
-# Editing this README
-
-When you're ready to make this README your own, just edit this file and use the handy template below (or feel free to structure it however you want - this is just a starting point!). Thank you to [makeareadme.com](https://www.makeareadme.com/) for this template.
-
-## Suggestions for a good README
-Every project is different, so consider which of these sections apply to yours. The sections used in the template are suggestions for most open source projects. Also keep in mind that while a README can be too long and detailed, too long is better than too short. If you think your README is too long, consider utilizing another form of documentation rather than cutting out information.
-
-## Name
-Choose a self-explaining name for your project.
-
-## Description
-Let people know what your project can do specifically. Provide context and add a link to any reference visitors might be unfamiliar with. A list of Features or a Background subsection can also be added here. If there are alternatives to your project, this is a good place to list differentiating factors.
-
-## Badges
-On some READMEs, you may see small images that convey metadata, such as whether or not all the tests are passing for the project. You can use Shields to add some to your README. Many services also have instructions for adding a badge.
-
-## Visuals
-Depending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.
-
-## Installation
-Within a particular ecosystem, there may be a common way of installing things, such as using Yarn, NuGet, or Homebrew. However, consider the possibility that whoever is reading your README is a novice and would like more guidance. Listing specific steps helps remove ambiguity and gets people to using your project as quickly as possible. If it only runs in a specific context like a particular programming language version or operating system or has dependencies that have to be installed manually, also add a Requirements subsection.
-
-## Usage
-Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.
-
-## Support
-Tell people where they can go to for help. It can be any combination of an issue tracker, a chat room, an email address, etc.
-
-## Roadmap
-If you have ideas for releases in the future, it is a good idea to list them in the README.
-
-## Contributing
-State if you are open to contributions and what your requirements are for accepting them.
-
-For people who want to make changes to your project, it's helpful to have some documentation on how to get started. Perhaps there is a script that they should run or some environment variables that they need to set. Make these steps explicit. These instructions could also be useful to your future self.
-
-You can also document commands to lint the code or run tests. These steps help to ensure high code quality and reduce the likelihood that the changes inadvertently break something. Having instructions for running tests is especially helpful if it requires external setup, such as starting a Selenium server for testing in a browser.
-
-## Authors and acknowledgment
-Show your appreciation to those who have contributed to the project.
-
-## License
-For open source projects, say how it is licensed.
-
-## Project status
-If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.
+Bon courage ! 
