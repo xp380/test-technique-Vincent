@@ -39,8 +39,9 @@ Votre rendu final devra comprendre :
 
 Ce test cherche à valider vos connaissance en ReactJS.
 
-__Objectif__ : Utiliser l'API Movie Database, afin de réaliser une interface utilisateur.</br>  
-https://api.themoviedb.org/3/movie/popular?api_key=ad2c28e0345278f3c8b002efddadf28f
+__Objectif__ : Utiliser l'API Movie Database, afin de réaliser une interface utilisateur.</br>
+le lien vers la documentation: https://developers.themoviedb.org/3/getting-started/introduction
+L'API key à ajouter à la fin de l'URL: api_key=ad2c28e0345278f3c8b002efddadf28f
 
 Votre rendu final devra comprendre :
 
