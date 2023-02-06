@@ -1,0 +1,27 @@
+.micro  {
+  display: flex;
+  flex-direction: column;
+}
+
+.marge {
+  border: solid;
+  border-color: red;
+  border-width: 5px;
+  margin-right: 20px;
+}
+.titre {
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+}
+.date {
+  color: white;
+  text-align: center;
+  font-size: 15px;
+}
+.resume {
+  text-align: center;
+  color: white;
+  font-size: 15px;
+}

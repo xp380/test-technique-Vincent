@@ -1,0 +1,10 @@
+.general {
+  display: flex;
+  flex-direction: row-reverse;
+  line-height: 2;
+}
+
+.designclose {
+  color: white;
+  font-size: 30px;
+}
